@@ -63,8 +63,8 @@ switch choice
         ValeurEmpiriqueCourbe = NombrePointSousLaCourbe/NombrePoint * 0.5*(e-1);
         text1 = sprintf('Nombre total de points : %d', NombrePoint);
         text2 = sprintf('Nombre de points sous la courbe : %d', NombrePointSousLaCourbe);
-        text3 = sprintf('Valeur approximative de l''intégrale : %f', ValeurEmpiriqueCourbe);
-        text4 = sprintf('Valeur "exacte" de l''intégrale : %f', ValeurExacteCourbe);
+        text3 = sprintf('Valeur approximative de l''intï¿½grale : %f', ValeurEmpiriqueCourbe);
+        text4 = sprintf('Valeur "exacte" de l''intï¿½grale : %f', ValeurExacteCourbe);
         disp('VALEUR APPROXIMATIVE D''UNE INTEGRALE')
         disp(text1)
         disp(text2)
@@ -105,12 +105,12 @@ switch choice
         ValeurEmpiriqueCourbe = NombrePointSousLaCourbe/NombrePoint * 2*2*0.04;
         text1 = sprintf('Nombre total de points : %d', NombrePoint);
         text2 = sprintf('Nombre de points sous la courbe : %d', NombrePointSousLaCourbe);
-        text3 = sprintf('Valeur approximative de l''intégrale : %f', ValeurEmpiriqueCourbe);
-        %text4 = sprintf('Valeur "exacte" de l''intégrale : %f', ValeurExacteCourbe);
+        text3 = sprintf('Valeur approximative de l''intï¿½grale : %f', ValeurEmpiriqueCourbe);
+        %text4 = sprintf('Valeur "exacte" de l''intï¿½grale : %f', ValeurExacteCourbe);
         disp('VALEUR APPROXIMATIVE D''UNE INTEGRALE')
         disp(text1)
         disp(text2)
         disp(text3)
-        disp(text4)
+        %disp(text4)
         %}
 end
